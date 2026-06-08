@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Finance-App\\FinanceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|d:\\finance-app\\financeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|d:\\finance-app\\financeapp\\views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|solutionrelative:views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|d:\\finance-app\\financeapp\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|solutionrelative:data\\service\\iexpensesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|d:\\finance-app\\financeapp\\views\\expenses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|solutionrelative:views\\expenses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|d:\\finance-app\\financeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|d:\\finance-app\\financeapp\\views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|solutionrelative:views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|d:\\finance-app\\financeapp\\views\\expenses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|solutionrelative:views\\expenses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7773B558-A929-473B-A308-8DBC4DD4EC8F}|FinanceApp.csproj|d:\\finance-app\\financeapp\\data\\financeappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "Data\\Service\\ExpensesService.cs",
               "ToolTip": "D:\\Finance-App\\FinanceApp\\Data\\Service\\ExpensesService.cs",
               "RelativeToolTip": "Data\\Service\\ExpensesService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wCMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T21:40:35.671Z",
               "EditorCaption": ""
@@ -77,14 +77,14 @@
               "RelativeDocumentMoniker": "Data\\Service\\IExpensesService.cs",
               "ToolTip": "D:\\Finance-App\\FinanceApp\\Data\\Service\\IExpensesService.cs",
               "RelativeToolTip": "Data\\Service\\IExpensesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T21:37:58.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Finance-App\\FinanceApp\\Views\\Expenses\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Expenses\\Create.cshtml",
@@ -96,15 +96,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Finance-App\\FinanceApp\\Views\\Expenses\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Expenses\\Index.cshtml",
               "ToolTip": "D:\\Finance-App\\FinanceApp\\Views\\Expenses\\Index.cshtml",
               "RelativeToolTip": "Views\\Expenses\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-08T20:53:11.953Z"
+              "WhenOpened": "2026-06-08T20:53:11.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -114,7 +115,7 @@
               "RelativeDocumentMoniker": "Controllers\\ExpensesController.cs",
               "ToolTip": "D:\\Finance-App\\FinanceApp\\Controllers\\ExpensesController.cs",
               "RelativeToolTip": "Controllers\\ExpensesController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAgwCEAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T20:49:43.438Z",
               "EditorCaption": ""
@@ -133,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Finance-App\\FinanceApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

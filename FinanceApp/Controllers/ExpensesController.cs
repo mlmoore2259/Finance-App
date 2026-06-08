@@ -36,5 +36,11 @@ namespace FinanceApp.Controllers
             }
             return View(expense);
         }
+
+        public IActionResult GetChart()
+        {
+            var data = _expensesService.GetChartData();
+            return Json(data);
+        }
     }
 }
