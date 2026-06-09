@@ -35,18 +35,37 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
-    const ctx = document.getElementById('myChart');
+    const canvas = document.getElementById('myChart');
+    const ctx = canvas.getContext('2d');
 
     fetch('/Expenses/GetChart')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok');
+            return response.json();
+        })
         .then(data => {
+            // normalize server property names (handles Category/TotalAmount or category/total)
+            const labels = data.map(d => d.category ?? d.Category);
+            const totals = data.map(d => d.total ?? d.TotalAmount ?? d.totalAmount);
+
             new Chart(ctx, {
-              type: 'pie',
-              data: {
-                labels: data.map(d => d.category),
-                datasets: [{
-                  data: data.map(d => d.total),
-                }]
-              },
+                type: 'pie',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: totals,
+                        backgroundColor: [
+                            '#4e73df', '#1cc88a', '#36b9cc', '#f6c23e', '#e74a3b', '#858796'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
             });
+        })
+        .catch(err => {
+            console.error('Failed to load chart data:', err);
+        });
 </script>

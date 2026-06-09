@@ -50,24 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExpensesService.cs",
-              "DocumentMoniker": "D:\\Finance-App\\FinanceApp\\Data\\Service\\ExpensesService.cs",
-              "RelativeDocumentMoniker": "Data\\Service\\ExpensesService.cs",
-              "ToolTip": "D:\\Finance-App\\FinanceApp\\Data\\Service\\ExpensesService.cs",
-              "RelativeToolTip": "Data\\Service\\ExpensesService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wCMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T21:40:35.671Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -79,8 +66,7 @@
               "RelativeToolTip": "Data\\Service\\IExpensesService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T21:37:58.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T21:37:58.738Z"
             },
             {
               "$type": "Document",
@@ -102,7 +88,7 @@
               "RelativeDocumentMoniker": "Views\\Expenses\\Index.cshtml",
               "ToolTip": "D:\\Finance-App\\FinanceApp\\Views\\Expenses\\Index.cshtml",
               "RelativeToolTip": "Views\\Expenses\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwEEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-08T20:53:11.953Z",
               "EditorCaption": ""
@@ -142,8 +128,23 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T20:40:43.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T20:40:43.47Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExpensesService.cs",
+              "DocumentMoniker": "D:\\Finance-App\\FinanceApp\\Data\\Service\\ExpensesService.cs",
+              "RelativeDocumentMoniker": "Data\\Service\\ExpensesService.cs",
+              "ToolTip": "D:\\Finance-App\\FinanceApp\\Data\\Service\\ExpensesService.cs",
+              "RelativeToolTip": "Data\\Service\\ExpensesService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wCMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T21:40:35.671Z"
             },
             {
               "$type": "Document",
@@ -180,10 +181,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T19:30:24.059Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
