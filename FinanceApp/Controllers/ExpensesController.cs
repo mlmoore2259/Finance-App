@@ -15,7 +15,7 @@ namespace FinanceApp.Controllers
             _expensesService = expensesService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Overview()
         {
             var expenses = await _expensesService.GetAll();
             return View(expenses);
@@ -32,9 +32,17 @@ namespace FinanceApp.Controllers
             if (ModelState.IsValid)
             {
                 await _expensesService.Add(expense);
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Overview));
             }
             return View(expense);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _expensesService.Delete(id);
+            return RedirectToAction(nameof(Overview));
         }
 
         public IActionResult GetChart()

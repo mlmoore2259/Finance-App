@@ -20,6 +20,12 @@
                     <td>@item.Amount $</td>
                     <td>@item.Category</td>
                     <td>@item.Date.ToString("yyyy-MM-dd")</td>
+                    <td>
+                        <form asp-action="Delete" asp-route-id="@item.Id" method="post" onsubmit="return confirm('Delete this expense?');">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
                 </tr>
             }
         </tbody>
@@ -69,3 +75,14 @@
             console.error('Failed to load chart data:', err);
         });
 </script>
+
+<div>
+    <button class="btn btn-primary">
+        <a href="/Expenses/Create" class="text-decoration-none text-white">Add New Expense</a>
+    </button>
+    <script>
+        document.querySelector('.btn').addEventListener('click', () => {
+            window.location.href = '/Expenses/Create';
+                });
+    </script>
+</div>

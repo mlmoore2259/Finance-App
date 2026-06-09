@@ -32,8 +32,8 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Finance-App/FinanceApp/Views/Expenses/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcSW5kZXguY3NodG1s
+[D:/Finance-App/FinanceApp/Views/Expenses/Overview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcT3ZlcnZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Finance-App/FinanceApp/Views/Home/Index.cshtml]

@@ -18,3 +18,12 @@
         <button type="submit" class="btn btn-primary">Add Expense</button>
     </form>
 </div>
+
+<div>
+    <button class="btn btn-secondary mt-3">Back to Overview</button>
+    <script>
+        document.querySelector('.btn-secondary').addEventListener('click', () => {
+            window.location.href = '/Expenses/Overview';
+        });
+    </script>
+</div>
